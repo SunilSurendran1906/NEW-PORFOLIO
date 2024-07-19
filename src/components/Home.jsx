@@ -18,7 +18,7 @@ function Home() {
       >
         <div className="flex flex-col md:flex-row">
           <div className="md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1">
-            <span className="text-xl">Welcome In My Feed</span>
+            <span className="text-xl">Welcome to My portfolio!</span>
             <div className="flex space-x-1 text-2xl md:text-4xl">
               <h1>Hello, I'm a</h1>
               <ReactTyped
@@ -31,11 +31,18 @@ function Home() {
             </div>
             <br />
             <p className="text-sm md:text-md text-justify">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Quisquam, recusandae consequatur. Accusamus sint libero eligendi
-              laborum fuga repudiandae? Asperiores tempore eos animi dolores
-              corrupti! Sint quos, mollitia architecto aliquam nesciunt, optio
-              cum delectus sit voluptatum aut ratione quaerat veniam aperiam!
+              passionate MERN stack developer with a knack for building robust
+              web applications. With a foundation in Mechanical Engineering and
+              specialized training in full-stack development from GUVI, IIT
+              Madras, I bring a unique perspective to software engineering. My
+              journey has led me to create dynamic applications using MongoDB,
+              Express.js, React.js, and Node.js. I excel in crafting secure
+              JWT-based authentication systems, real-time features with
+              Socket.io, and responsive UI/UX designs. Currently, I'm diving
+              deeper into integrating Redux for enhanced state management and
+              exploring GraphQL for efficient data fetching. Explore my projects
+              below and connect with me on LinkedIn or GitHub for collaborations
+              and exciting opportunities.
             </p>
             <br />
             <div className="flex flex-col items-center md:flex-row justify-between space-y-6 md:space-y-0">
