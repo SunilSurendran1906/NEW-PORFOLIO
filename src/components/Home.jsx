@@ -69,7 +69,7 @@ function Home() {
                   </li>
                   <li>
                     <a
-                      href="https://drive.google.com/file/d/16nj1F23NNMmr-iT4OnpjuC9uEAKRNcrj/view?usp=sharing"
+                      href="https://drive.google.com/file/d/1aFyE9rKbMZutzNlwzg5e7vIx5eolyy62/view?usp=sharing"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
