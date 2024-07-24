@@ -3,7 +3,7 @@ import React from "react";
 function About() {
   return (
     <div
-      name="About"
+      name="about"
       className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-20"
     >
       <div>

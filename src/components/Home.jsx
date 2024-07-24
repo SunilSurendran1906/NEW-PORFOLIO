@@ -13,7 +13,7 @@ function Home() {
   return (
     <>
       <div
-        name="Home"
+        name="home"
         className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-20"
       >
         <div className="flex flex-col md:flex-row">

@@ -4,7 +4,7 @@ import chat from "../../public/chat.256x256.png";
 import Realestate from "../../public/real-estate-agent.254x256.png";
 import ecommerce from "../../public/amazon.256x256.png";
 
-function PortFolio() {
+function Projects() {
   const cardItem = [
     {
       id: 1,
@@ -54,7 +54,7 @@ function PortFolio() {
 
   return (
     <div
-      name="Portfolio"
+      name="projects"
       className="max-w-screen-2xl container mx-auto px-4 md:px-20 mt-10"
     >
       <div>
@@ -118,4 +118,4 @@ function PortFolio() {
   );
 }
 
-export default PortFolio;
+export default Projects;

@@ -3,6 +3,7 @@ import pic from "../../public/cropped-WhatsApp Image 2024-07-05 at 20.51.46_9424
 import { AiOutlineMenu } from "react-icons/ai";
 import { IoCloseSharp } from "react-icons/io5";
 import { Link } from "react-scroll";
+
 function Navbar() {
   const [menu, setMenu] = useState(false);
   const navItems = [
@@ -20,13 +21,14 @@ function Navbar() {
     },
     {
       id: 4,
-      text: "Experiance",
+      text: "Experience",
     },
     {
       id: 5,
       text: "Contact",
     },
   ];
+
   return (
     <>
       <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 h-16 shadow-md fixed top-0 left-0 right-0 z-50 bg-white">
@@ -38,7 +40,7 @@ function Navbar() {
               <p className="text-sm">Web Developer</p>
             </h1>
           </div>
-          {/* desktop navbar */}
+          {/* Desktop Navbar */}
           <div>
             <ul className="hidden md:flex space-x-8">
               {navItems.map(({ id, text }) => (
@@ -47,7 +49,7 @@ function Navbar() {
                   key={id}
                 >
                   <Link
-                    to={text}
+                    to={text.toLowerCase()}
                     smooth={true}
                     duration={500}
                     offset={-70}
@@ -63,7 +65,7 @@ function Navbar() {
             </div>
           </div>
         </div>
-        {/* mobile navbar */}
+        {/* Mobile Navbar */}
         {menu && (
           <div className="bg-white">
             <ul className="md:hidden flex flex-col h-screen items-center justify-center space-y-3 text-xl">
@@ -73,8 +75,8 @@ function Navbar() {
                   key={id}
                 >
                   <Link
-                    onClick={() => setMenu(!menu)}
-                    to={text}
+                    onClick={() => setMenu(false)} // Close menu before scrolling
+                    to={text.toLowerCase()}
                     smooth={true}
                     duration={500}
                     offset={-70}

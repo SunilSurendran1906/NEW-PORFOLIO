@@ -9,7 +9,8 @@ import github from "../../public/github-outline.256x256.png";
 import postman from "../../public/postman.248x256.png";
 import bootstrap from "../../public/bootstrap.256x256.png";
 import aws from "../../public/amazon.256x256.png";
-function Experiance() {
+
+function Experience() {
   const cardItem = [
     {
       id: 1,
@@ -62,9 +63,10 @@ function Experiance() {
       name: "AWS",
     },
   ];
+
   return (
     <div
-      name="Experiance"
+      name="experience"
       className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16"
     >
       <div>
@@ -88,4 +90,4 @@ function Experiance() {
   );
 }
 
-export default Experiance;
+export default Experience;
